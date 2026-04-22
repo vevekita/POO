@@ -38,24 +38,40 @@ public class Exercicios {
             
             int num1;
             int num2;
-            System.out.println("Digite o primeiro número para a operação escolhida: ");
-            num1 = leitura.nextInt();
-            System.out.println("Digite o segundo número para a operação escolhida: ");
-            num2 = leitura.nextInt();
+            
             switch(opcao){
+                case 0: 
+                    System.out.println("Saindo do sistema...");
+                    break;
                 case 1:
+                    System.out.print("Digite o primeiro número para a operação escolhida: ");
+                    num1 = leitura.nextInt();
+                    System.out.print("Digite o segundo número para a operação escolhida: ");
+                    num2 = leitura.nextInt();
                     System.out.println("A soma dos dois números inseridos é igual a " + (num1 + num2));
                     break;
                     
                 case 2:
+                    System.out.print("Digite o primeiro número para a operação escolhida: ");
+                    num1 = leitura.nextInt();
+                    System.out.print("Digite o segundo número para a operação escolhida: ");
+                    num2 = leitura.nextInt();
                     System.out.println("A subtração dos dois números inseridos é igual a " + (num1 - num2));
                     break;
                 
                 case 3:
+                    System.out.print("Digite o primeiro número para a operação escolhida: ");
+                    num1 = leitura.nextInt();
+                    System.out.print("Digite o segundo número para a operação escolhida: ");
+                    num2 = leitura.nextInt();
                     System.out.println("A multiplicação dos dois números inseridos é igual a " + (num1 * num2));
                     break;
                 
                 case 4:
+                    System.out.print("Digite o primeiro número para a operação escolhida: ");
+                    num1 = leitura.nextInt();
+                    System.out.print("Digite o segundo número para a operação escolhida: ");
+                    num2 = leitura.nextInt();
                     System.out.println("A divisão dos dois números inseridos é igual a " + (num1 / num2));
                     break;
                     
