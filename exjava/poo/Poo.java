@@ -8,7 +8,7 @@ public class Poo {
         meuCarro.setPlaca("GGG-1111");
         meuCarro.setNumPortas(4);
 
-        System.outprintln("--------Carro---------");
+        System.out.println("--------Carro---------");
         System.out.println("Cor: " + meuCarro.getCor());
         System.out.println("Tipo: " + meuCarro.getTipo());
         System.out.println("Placa: " + meuCarro.getPlaca());
