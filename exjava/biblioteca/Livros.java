@@ -8,6 +8,20 @@ public class Livros {
     private int ano;
     private int edicao;
     private int numFolhas;
+   
+    public Livros(){
+        
+    }
+    
+    public Livros(String titulo, String autores, String area, String editora, int ano, int edicao, int numFolhas){
+        this.titulo = titulo;
+        this.autores = autores;
+        this.area = area;
+        this.editora = editora;
+        this.ano = ano;
+        this.edicao = edicao;
+        this.numFolhas = numFolhas;
+    }
     
     public void setTitulo(String titulo){
         this.titulo = titulo;
