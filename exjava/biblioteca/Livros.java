@@ -6,14 +6,14 @@ public class Livros {
     private String area;
     private String editora;
     private int ano;
-    private int edicao;
+    private String edicao;
     private int numFolhas;
    
     public Livros(){
         
     }
     
-    public Livros(String titulo, String autores, String area, String editora, int ano, int edicao, int numFolhas){
+    public Livros(String titulo, String autores, String area, String editora, int ano, String edicao, int numFolhas){
         this.titulo = titulo;
         this.autores = autores;
         this.area = area;
@@ -63,11 +63,11 @@ public class Livros {
         return ano;
     }
     
-    public void setEdicao(int edicao){
+    public void setEdicao(String edicao){
             this.edicao = edicao;
     }
     
-    public int getEdicao(){
+    public String getEdicao(){
         return edicao;
     }
     
